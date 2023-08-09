@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
-  name: string = 'iPhone 13';
-  price: number = 999;
-  color: string = 'Red';
+  product = {
+    name: 'iPhone 13',
+    price: 999,
+    color: 'Red',
+    discount: 9,
+  }
 }
