@@ -11,7 +11,7 @@ export class ProductListComponent {
     price: 999,
     color: 'Red',
     discount: 9,
-    inStock: 10
+    inStock: 0
   }
 
   getDiscountedPrice() {
